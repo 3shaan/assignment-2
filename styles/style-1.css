@@ -15,7 +15,7 @@ main{
  First Section Style 
  -------------------- */
  .container{
-    width: 90%;
+    width: 85%;
     padding: 50px;
     height: 100%;
  }
@@ -36,33 +36,38 @@ main{
 }
 
 .banner-title h1{
-    font-size: 50px;
+    font-size: 3vw;
 }
 .banner-text{
-    font-size: 18px;
+    font-size: 1vw;
     padding: 20px 0;
 }
 .b-text{
     color: red;
 }
 .banner-title button{
-    height: 56px;
-    width: 150px;
+    height: 7vh;
+    width: 13vw;
     background: red;
     border-radius: 5px;
 }
 .btn-angkor{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 1.5vw;
     color: white;
 }
 
 .banner-img {
-    width: 600px;
+    width: 50%;
 }
 .banner-img img{
     height:100%;
     width: 100%;
+    
+}
+.banner-img:hover{
+    transform: rotateY(360deg);
+    transition-duration: 2s;
     
 }
 .fa-solid{
@@ -74,7 +79,7 @@ main{
 .page-link{
     height: 312px;
     width: 270px;
-    border: 1px solid;
+    border: 1px solid white;
     border-radius: 10px;
     background-color: #000;
     display: grid;
@@ -86,7 +91,15 @@ main{
 height: 64px;
 width: 242px;
 border-radius: 10px;
-background-color: red;
+
+}
+.page-btn{
+   background-color: red;
+}
+.btn2-angkor{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #000;
 }
 
 .article-img img{
@@ -125,6 +138,18 @@ article{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+.view{
+    visibility: hidden;
+   height: 100%;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 30px;
+    
+}
+
+/* --------------
+Footer style  
+------------------*/
 footer{
     
     background-color: #000;
@@ -132,8 +157,13 @@ footer{
     text-align: center;
 }
 footer h1{
-    font-size: 50px;
-    padding: 60px 0;
+    font-size: 2.5em;
+    padding: 40px 0;
+}
+.fa-brands{
+    font-size: 2em;
+    padding: 30px;
+    
 }
 footer hr{
     border: 1px solid gray;
