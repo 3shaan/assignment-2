@@ -1,11 +1,21 @@
 .match-box{
     width: 312px;
     height: 224px;
-    border: 1px solid gray;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px 1px rgb(223, 213, 213);
     
 }
 .match-img{
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
+}
+.vs{
+    padding-top: 20px;
+}
+.match-text{
+    text-align: center;
+    top: 15%;
+    position: relative;
 }
